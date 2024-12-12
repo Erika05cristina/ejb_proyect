@@ -1,0 +1,126 @@
+package swing;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.List;
+import java.util.Properties;
+
+import javax.naming.Context;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.SwingUtilities;
+import javax.swing.table.DefaultTableModel;
+
+import ejb.proyecto1_cliente.Main;
+import model.Member;
+import service.MemberRegistrationRemote;
+
+public class InterfazSwing {
+	public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Gestión de Miembros");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setSize(600, 400);  // Aumenté el tamaño para la tabla
+
+            // Crear un panel con GridLayout para los campos
+            JPanel panel = new JPanel(new GridLayout(4, 2, 10, 10));  // Cambié a 4 filas (sin la tabla)
+
+            // Etiquetas y campos de texto
+            JLabel nameLabel = new JLabel("Nombre:");
+            JTextField nameField = new JTextField();
+            JLabel emailLabel = new JLabel("Correo:");
+            JTextField emailField = new JTextField();
+            JLabel phoneLabel = new JLabel("Teléfono:");
+            JTextField phoneField = new JTextField();
+
+            // Botones
+            JButton saveButton = new JButton("Guardar");
+            JButton exitButton = new JButton("Salir");
+
+            // Crear instancia de Main para la conexión con EJB
+            Main client = new Main();
+            try {
+                client.initialize();
+            } catch (Exception e) {
+                JOptionPane.showMessageDialog(frame, "Error inicializando conexión: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                e.printStackTrace();
+                return;
+            }
+
+            // Crear JTable para mostrar los usuarios
+            String[] columnNames = {"Nombre", "Correo", "Teléfono"};
+            JTable table = new JTable(new DefaultTableModel(columnNames, 0));
+            JScrollPane scrollPane = new JScrollPane(table);
+
+            // Agregar la tabla a un contenedor con BorderLayout
+            JPanel tablePanel = new JPanel(new BorderLayout());
+            tablePanel.add(scrollPane, BorderLayout.CENTER); // Agregar la tabla al centro del BorderLayout
+
+            // Método para actualizar la tabla con los miembros
+            updateMemberTable(client, table);
+
+            // Acción del botón Guardar
+            saveButton.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    String name = nameField.getText();
+                    String email = emailField.getText();
+                    String phone = phoneField.getText();
+
+                    try {
+                        client.registerMember(name, email, phone);
+                        JOptionPane.showMessageDialog(frame, "Miembro guardado exitosamente: " + name);
+                        // Actualizar la tabla después de agregar un miembro
+                        updateMemberTable(client, table);
+                    } catch (Exception ex) {
+                        JOptionPane.showMessageDialog(frame, "Error al guardar miembro: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                        ex.printStackTrace();
+                    }
+                }
+            });
+
+            // Acción del botón Salir
+            exitButton.addActionListener(e -> System.exit(0));
+
+            // Agregar componentes al panel de la parte superior
+            panel.add(nameLabel);
+            panel.add(nameField);
+            panel.add(emailLabel);
+            panel.add(emailField);
+            panel.add(phoneLabel);
+            panel.add(phoneField);
+            panel.add(saveButton);
+            panel.add(exitButton);
+
+            // Agregar el panel de campos al frame
+            frame.add(panel, BorderLayout.NORTH);  // Panel de campos en la parte superior
+            frame.add(tablePanel, BorderLayout.CENTER);  // La tabla en el centro
+
+            frame.setVisible(true);
+        });
+    }
+
+    // Método para actualizar la tabla con la lista de miembros
+    private static void updateMemberTable(Main client, JTable table) {
+        try {
+            List<Member> members = client.getAllMembers();
+            DefaultTableModel model = (DefaultTableModel) table.getModel();
+            model.setRowCount(0);  // Limpiar la tabla antes de agregar nuevos datos
+            for (Member member : members) {
+                model.addRow(new Object[]{member.getName(), member.getEmail(), member.getPhone()});
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}	}
