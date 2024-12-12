@@ -1,0 +1,10 @@
+package service;
+
+import java.lang.reflect.Member;
+
+import jakarta.ejb.Remote;
+
+@Remote
+public interface MemberRegistrationRemote {
+	void register(Member member);
+}

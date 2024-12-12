@@ -1,0 +1,20 @@
+package service;
+
+
+import jakarta.ejb.Stateless;
+import model.Member;
+
+@Stateless
+public class MemberRegistrationBean implements MemberRegistrationRemote{
+	
+	 public void register(Member member) {
+	        System.out.println("Cliente registrado: " + member.getName());
+	    }
+
+	@Override
+	public void register(java.lang.reflect.Member member) {
+		System.out.println("Cliente registrado: " + member.getName());
+	}
+}
+
+//Revisar el java.lang.reflect

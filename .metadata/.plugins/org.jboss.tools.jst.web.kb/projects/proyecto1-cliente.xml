@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-scram/2.4.2.Final/wildfly-elytron-sasl-scram-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl/2.4.2.Final/wildfly-elytron-sasl-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-provider-util/2.4.2.Final/wildfly-elytron-provider-util-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism-digest/2.4.2.Final/wildfly-elytron-mechanism-digest-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/enterprise/jakarta.enterprise.cdi-api/4.0.1/jakarta.enterprise.cdi-api-4.0.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/container/arquillian-container-impl-base/1.7.2.Final/arquillian-container-impl-base-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-digest/2.4.2.Final/wildfly-elytron-sasl-digest-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-spi/1.2.6/shrinkwrap-spi-1.2.6.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/marshalling/jboss-marshalling/2.1.4.SP1/jboss-marshalling-2.1.4.SP1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-encryption/2.4.2.Final/wildfly-elytron-encryption-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-localuser/2.4.2.Final/wildfly-elytron-sasl-localuser-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/client/wildfly-client-config/1.0.1.Final/wildfly-client-config-1.0.1.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/xnio/xnio-nio/3.8.15.Final/xnio-nio-3.8.15.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-credential/2.4.2.Final/wildfly-elytron-credential-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/slf4j/jcl-over-slf4j/2.0.12/jcl-over-slf4j-2.0.12.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism-oauth2/2.4.2.Final/wildfly-elytron-mechanism-oauth2-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-oauth2/2.4.2.Final/wildfly-elytron-sasl-oauth2-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-permission/2.4.2.Final/wildfly-elytron-permission-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/core/arquillian-core-impl-base/1.7.2.Final/arquillian-core-impl-base-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-auth-server-deprecated/2.4.2.Final/wildfly-elytron-auth-server-deprecated-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-gssapi/2.4.2.Final/wildfly-elytron-sasl-gssapi-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-auth-util/2.4.2.Final/wildfly-elytron-sasl-auth-util-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-api/1.7.2.Final/arquillian-container-test-api-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/junit5/arquillian-junit5-container/1.7.2.Final/arquillian-junit5-container-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-plain/2.4.2.Final/wildfly-elytron-sasl-plain-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/core/arquillian-core-spi/1.7.2.Final/arquillian-core-spi-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-auth-server/2.4.2.Final/wildfly-elytron-auth-server-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/ejb/jakarta.ejb-api/4.0.1/jakarta.ejb-api-4.0.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-security-manager-action/2.4.2.Final/wildfly-elytron-security-manager-action-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-x500/2.4.2.Final/wildfly-elytron-x500-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-ssh-util/2.4.2.Final/wildfly-elytron-ssh-util-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/marshalling/jboss-marshalling-river/2.1.4.SP1/jboss-marshalling-river-2.1.4.SP1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/config/arquillian-config-spi/1.7.2.Final/arquillian-config-spi-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/protocol/arquillian-protocol-servlet-jakarta/10.0.0.Final/arquillian-protocol-servlet-jakarta-10.0.0.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/test/arquillian-test-impl-base/1.7.2.Final/arquillian-test-impl-base-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert/2.4.2.Final/wildfly-elytron-x500-cert-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism-scram/2.4.2.Final/wildfly-elytron-mechanism-scram-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/test/arquillian-test-spi/1.7.2.Final/arquillian-test-spi-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/transaction/wildfly-transaction-client/3.0.5.Final/wildfly-transaction-client-3.0.5.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-credential-source-impl/2.4.2.Final/wildfly-elytron-credential-source-impl-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-credential-store/2.4.2.Final/wildfly-elytron-credential-store-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/remoting/jboss-remoting/5.0.28.Final/jboss-remoting-5.0.28.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism/2.4.2.Final/wildfly-elytron-mechanism-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-util/2.4.2.Final/wildfly-elytron-util-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-http/2.4.2.Final/wildfly-elytron-http-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-x500-cert-util/2.4.2.Final/wildfly-elytron-x500-cert-util-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-spi/2.0.0/shrinkwrap-descriptors-spi-2.0.0.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-base/2.4.2.Final/wildfly-elytron-base-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/jboss-ejb-client/5.0.6.Final/jboss-ejb-client-5.0.6.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/test/arquillian-test-api/1.7.2.Final/arquillian-test-api-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-otp/2.4.2.Final/wildfly-elytron-sasl-otp-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/core/arquillian-core-api/1.7.2.Final/arquillian-core-api-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-impl-base/1.7.2.Final/arquillian-container-test-impl-base-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/discovery/wildfly-discovery-client/1.2.2.Final/wildfly-discovery-client-1.2.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-keystore/2.4.2.Final/wildfly-elytron-keystore-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-security-manager/2.4.2.Final/wildfly-elytron-security-manager-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/junit5/arquillian-junit5-core/1.7.2.Final/arquillian-junit5-core-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-ssl/2.4.2.Final/wildfly-elytron-ssl-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/threads/jboss-threads/2.4.0.Final/jboss-threads-2.4.0.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-realm/2.4.2.Final/wildfly-elytron-realm-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/interceptor/jakarta.interceptor-api/2.1.0/jakarta.interceptor-api-2.1.0.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-anonymous/2.4.2.Final/wildfly-elytron-sasl-anonymous-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/faces/jakarta.faces-api/4.0.1/jakarta.faces-api-4.0.1.jar"/>
+  <path value="C:/bin/wildfly-32.0.1.Final/wildfly-32.0.1.Final/bin/client/jboss-client.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-entity/2.4.2.Final/wildfly-elytron-sasl-entity-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-external/2.4.2.Final/wildfly-elytron-sasl-external-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-auth-server-http/2.4.2.Final/wildfly-elytron-auth-server-http-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/config/arquillian-config-impl-base/1.7.2.Final/arquillian-config-impl-base-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/config/arquillian-config-api/1.7.2.Final/arquillian-config-api-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/container/arquillian-container-spi/1.9.0.Final/arquillian-container-spi-1.9.0.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-digest/2.4.2.Final/wildfly-elytron-digest-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-auth/2.4.2.Final/wildfly-elytron-auth-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-client/2.4.2.Final/wildfly-elytron-client-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/wildfly-naming-client/2.0.1.Final/wildfly-naming-client-2.0.1.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-sasl-gs2/2.4.2.Final/wildfly-elytron-sasl-gs2-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/common/wildfly-common/1.7.0.Final/wildfly-common-1.7.0.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-api-base/2.0.0/shrinkwrap-descriptors-api-base-2.0.0.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-impl-base/1.2.6/shrinkwrap-impl-base-1.2.6.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/shrinkwrap/shrinkwrap-api/1.2.6/shrinkwrap-api-1.2.6.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/arquillian/container/arquillian-container-test-spi/1.7.2.Final/arquillian-container-test-spi-1.7.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-password-impl/2.4.2.Final/wildfly-elytron-password-impl-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/jboss/xnio/xnio-api/3.8.15.Final/xnio-api-3.8.15.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-auth-util/2.4.2.Final/wildfly-elytron-auth-util-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-mechanism-gssapi/2.4.2.Final/wildfly-elytron-mechanism-gssapi-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/apache/sshd/sshd-common/2.12.1/sshd-common-2.12.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-asn1/2.4.2.Final/wildfly-elytron-asn1-2.4.2.Final.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/jakarta/enterprise/jakarta.enterprise.lang-model/4.0.1/jakarta.enterprise.lang-model-4.0.1.jar"/>
+  <path value="C:/Users/Cristina/.m2/repository/org/wildfly/security/wildfly-elytron-auth-server-sasl/2.4.2.Final/wildfly-elytron-auth-server-sasl-2.4.2.Final.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jboss.cdi.core"/>
+  <el>
+   <linked-el length="26" name="%0" offset="10929" path="%1"/>
+   <linked-el length="22" name="%2" offset="5646" path="%1"/>
+   <linked-el length="17" name="%3" offset="6608" path="%1"/>
+   <linked-el length="21" name="%4" offset="10637" path="%1"/>
+   <linked-el length="21" name="%5" offset="10637" path="%1"/>
+   <linked-el length="21" name="%6" offset="11461" path="%1"/>
+   <linked-el length="31" name="%6" offset="12020" path="%1"/>
+   <linked-el length="26" name="%6" offset="15384" path="%1"/>
+   <linked-el length="26" name="%6" offset="13661" path="%1"/>
+   <linked-el length="22" name="%6" offset="5646" path="%1"/>
+   <linked-el length="26" name="%6" offset="10929" path="%1"/>
+   <linked-el length="17" name="%6" offset="6608" path="%1"/>
+   <linked-el length="26" name="%7" offset="10929" path="%1"/>
+   <linked-el length="31" name="%8" offset="12020" path="%1"/>
+   <linked-el length="31" name="%9" offset="12020" path="%1"/>
+   <linked-el length="31" name="%10" offset="12020" path="%1"/>
+   <linked-el length="22" name="%10" offset="5646" path="%1"/>
+   <linked-el length="21" name="%11" offset="11461" path="%1"/>
+   <linked-el length="21" name="%12" offset="11461" path="%1"/>
+   <linked-el length="26" name="%13" offset="15384" path="%1"/>
+   <linked-el length="26" name="%13" offset="13661" path="%1"/>
+   <linked-el length="26" name="%14" offset="15384" path="%1"/>
+   <linked-el length="26" name="%14" offset="13661" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="version.compiler" value="%0"/>
+  <alias path="version.wildfly.bom" value="%2"/>
+  <alias path="version.junit5" value="%3"/>
+  <alias path="project.artifactId" value="%4"/>
+  <alias path="project" value="%5"/>
+  <alias path="/proyecto1-cliente/pom.xml" value="%1"/>
+  <alias path="version" value="%6"/>
+  <alias path="version.compiler.plugin" value="%7"/>
+  <alias path="version.wildfly.maven.plugin" value="%8"/>
+  <alias path="version.wildfly.maven" value="%9"/>
+  <alias path="version.wildfly" value="%10"/>
+  <alias path="version.war" value="%11"/>
+  <alias path="version.war.plugin" value="%12"/>
+  <alias path="version.failsafe" value="%13"/>
+  <alias path="version.failsafe.plugin" value="%14"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

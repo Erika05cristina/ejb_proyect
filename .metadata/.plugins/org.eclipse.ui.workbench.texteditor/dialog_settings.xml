@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="2.0.1.Final"/>
+			<item value="packaging"/>
+			<item value="&lt;version.wildfly.bom&gt;"/>
+			<item value="example"/>
+		</list>
+	</section>
+</section>
